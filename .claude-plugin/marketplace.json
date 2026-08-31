@@ -1,0 +1,17 @@
+{
+  "name": "wiederholung-semantic-scholar",
+  "owner": {
+    "name": "Wiederholung"
+  },
+  "metadata": {
+    "description": "Unofficial Semantic Scholar research tools for coding agents"
+  },
+  "plugins": [
+    {
+      "name": "semantic-scholar-research",
+      "source": "./plugins/semantic-scholar-research",
+      "description": "Search, disambiguate, recommend, trace, and cite papers through Semantic Scholar",
+      "version": "0.1.0"
+    }
+  ]
+}

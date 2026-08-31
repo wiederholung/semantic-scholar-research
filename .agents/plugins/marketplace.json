@@ -1,0 +1,20 @@
+{
+  "name": "wiederholung-semantic-scholar",
+  "interface": {
+    "displayName": "Wiederholung Semantic Scholar"
+  },
+  "plugins": [
+    {
+      "name": "semantic-scholar-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/semantic-scholar-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

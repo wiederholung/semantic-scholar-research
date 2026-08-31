@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "semantic-scholar-agent"
+version = "0.1.0"
+description = "Machine-oriented Semantic Scholar research primitives for AI agents."
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+  { name = "Wiederholung" },
+]
+dependencies = [
+  "httpx>=0.27,<1",
+  "python-dotenv>=1,<2",
+]
+
+[project.scripts]
+s2-agent = "semantic_scholar_agent.cli:main"
+
+[dependency-groups]
+dev = [
+  "pytest>=8,<9",
+  "ruff>=0.12,<1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/semantic_scholar_agent"]
+
+[tool.pytest.ini_options]
+addopts = ["-ra", "-m", "not live"]
+testpaths = ["tests"]
+markers = [
+  "live: calls the live Semantic Scholar API and requires SEMANTIC_SCHOLAR_API_KEY",
+]
+
+[tool.ruff]
+target-version = "py311"
+
+[tool.ruff.lint]
+ignore = [
+  "BLE001", # The CLI must preserve its one-JSON-object contract on unexpected failures.
+  "FLY002", # Explicit field tuples are easier to audit against the OpenAPI schemas.
+]

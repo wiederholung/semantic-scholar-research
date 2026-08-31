@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semantic Scholar Research"
+  short_description: "Search, trace, recommend, and cite papers with S2"
+  default_prompt: "Use $semantic-scholar-research to search, expand, verify, and export papers for this research question."

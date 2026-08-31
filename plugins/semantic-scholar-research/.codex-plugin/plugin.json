@@ -1,0 +1,28 @@
+{
+  "name": "semantic-scholar-research",
+  "version": "0.1.0",
+  "description": "Search, disambiguate, recommend, trace, and cite papers through Semantic Scholar.",
+  "author": {
+    "name": "Wiederholung",
+    "url": "https://github.com/wiederholung"
+  },
+  "homepage": "https://github.com/wiederholung/semantic-scholar-research",
+  "repository": "https://github.com/wiederholung/semantic-scholar-research",
+  "license": "MIT",
+  "keywords": ["semantic-scholar", "literature-search", "research", "bibtex"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Semantic Scholar Research",
+    "shortDescription": "Search, trace, recommend, and cite papers with S2.",
+    "longDescription": "An unofficial local research workflow for Semantic Scholar discovery, title disambiguation, citation and reference tracing, recommendations, snippet evidence, and exact BibTeX export.",
+    "developerName": "Wiederholung",
+    "category": "Productivity",
+    "capabilities": ["Research", "Local execution"],
+    "websiteURL": "https://github.com/wiederholung/semantic-scholar-research",
+    "defaultPrompt": [
+      "Find and disambiguate papers for this research question.",
+      "Trace citations and references for this paper.",
+      "Export confirmed Semantic Scholar BibTeX entries."
+    ]
+  }
+}

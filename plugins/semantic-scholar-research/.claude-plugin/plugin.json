@@ -1,0 +1,13 @@
+{
+  "name": "semantic-scholar-research",
+  "description": "Search, disambiguate, recommend, trace, and cite papers through Semantic Scholar.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Wiederholung",
+    "url": "https://github.com/wiederholung"
+  },
+  "homepage": "https://github.com/wiederholung/semantic-scholar-research",
+  "repository": "https://github.com/wiederholung/semantic-scholar-research",
+  "license": "MIT",
+  "keywords": ["semantic-scholar", "literature-search", "research", "bibtex"]
+}

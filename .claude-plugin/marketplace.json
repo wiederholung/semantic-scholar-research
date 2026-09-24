@@ -11,7 +11,7 @@
       "name": "semantic-scholar-research",
       "source": "./plugins/semantic-scholar-research",
       "description": "Search, disambiguate, recommend, trace, and cite papers through Semantic Scholar",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "semantic-scholar-research",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Search, disambiguate, recommend, trace, and cite papers through Semantic Scholar.",
   "author": {
     "name": "Wiederholung",
